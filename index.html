@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Virtual</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content container">
+        <div class="img-logo">
+          <a href="">
+            <img src="assets/images/icons/data-server.png" alt=""
+          /></a>
+        </div>
+        <nav>
+          <button data-menu="button">
+            <div></div>
+            <div></div>
+            <div></div>
+          </button>
+          <ul class="list" data-menu="list">
+            <li><a href="" class="active">Inicio</a></li>
+            <li data-dropdown>
+              <a href="">Sobre nós</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="empresa.html">A Empresa</a>
+                </li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="socios.html">Sócios</a></li>
+                <li>
+                  <a href="investidores.html">Investidores</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="login.html" data-modal="open">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div onclick="subirTela()" class="scrollButton">
+        <img src="assets/images/icons/up-arrow.png" alt="" />
+      </div>
+      <section class="banner">
+        <div class="banner-content container">
+          <h1>Speed Virtual</h1>
+          <p>Fibra Optica de verdade</p>
+          <img
+            class="banner-content-img"
+            src="assets/images/icons/wire.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section>
+        <div class="quality container">
+          <div class="quality-item">
+            <img src="assets/images/icons/shield.png" alt="" />
+            <p class="title">Segurança</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
+              lobortis massa.Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Donec non lobortis massa.
+            </p>
+          </div>
+          <div class="quality-item">
+            <img src="assets/images/icons/rocket.png" alt="" />
+            <p class="title">Velocidade</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
+              lobortis massa.Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Donec non lobortis massa.
+            </p>
+          </div>
+          <div class="quality-item">
+            <img src="assets/images/icons/chat.png" alt="" />
+            <p class="title">Comunicação</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
+              lobortis massa.Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Donec non lobortis massa.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="price" id="planos">
+        <div class="price-content container">
+          <div class="price-items">
+            <ul>
+              <li class="price-title">Start</li>
+              <li class="price-subtitle">30 Megas</li>
+              <li>Velocidade constante</li>
+              <li>Upload equivalente ao download</li>
+              <li>Suporte 24h</li>
+              <li class="price-free">Instalação FREE</li>
+              <li class="price-price"><sup>R$</sup>79,90</li>
+            </ul>
+          </div>
+          <div class="price-items">
+            <ul>
+              <li class="price-title">Start</li>
+              <li class="price-subtitle">30 Megas</li>
+              <li>Velocidade constante</li>
+              <li>Upload equivalente ao download</li>
+              <li>Suporte 24h</li>
+              <li class="price-free">Instalação FREE</li>
+              <li class="price-price"><sup>R$</sup>79,90</li>
+            </ul>
+          </div>
+          <div class="price-items">
+            <ul>
+              <li class="price-title">Start</li>
+              <li class="price-subtitle">30 Megas</li>
+              <li>Velocidade constante</li>
+              <li>Upload equivalente ao download</li>
+              <li>Suporte 24h</li>
+              <li class="price-free">Instalação FREE</li>
+              <li class="price-price"><sup>R$</sup>79,90</li>
+            </ul>
+          </div>
+          <div class="price-items">
+            <ul>
+              <li class="price-title">Start</li>
+              <li class="price-subtitle">30 Megas</li>
+              <li>Velocidade constante</li>
+              <li>Upload equivalente ao download</li>
+              <li>Suporte 24h</li>
+              <li class="price-free">Instalação FREE</li>
+              <li class="price-price"><sup>R$</sup>79,90</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-content">
+          <h2>Saiba de tudo</h2>
+          <p>Fique por dentro das novidades</p>
+          <form action="">
+            <input type="email" name="email" placeholder="Digite seu email" />
+            <input type="submit" name="submit" value="assinar" />
+          </form>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="faq-content container">
+          <h2>Faq</h2>
+          <div class="faq-text">
+            <h4>Como funciona?</h4>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
+              amet, consectetur adip lorem ipsum dolor sit amet, consectetur
+              adip
+            </p>
+            <h4>Como funciona?</h4>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
+              amet, consectetur adip lorem ipsum dolor sit amet, consectetur
+              adip
+            </p>
+            <h4>Como funciona?</h4>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
+              amet, consectetur adip lorem ipsum dolor sit amet, consectetur
+              adip
+            </p>
+            <h4>Como funciona?</h4>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
+              amet, consectetur adip lorem ipsum dolor sit amet, consectetur
+              adip
+            </p>
+            <h4>Como funciona?</h4>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit
+              amet, consectetur adip lorem ipsum dolor sit amet, consectetur
+              adip
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content container">
+        <div class="footer-content-info">
+          <p>Telefone - (19) 3333-4444</p>
+          <p>Localização: <span>Rua alameda do xesque, 151, tatuapé</span></p>
+          <p>speedvirtual@contato.net</p>
+          <p>CNPJ - 132.12312.2313-F</p>
+        </div>
+        <div class="footer-socials">
+          <img src="assets/images/icons/facebook.png" alt="" /><img
+            src="assets/images/icons/twitter.png"
+            alt=""
+          /><img src="assets/images/icons/instagram.png" alt="" /><img
+            src="assets/images/icons/linkedin.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <ul>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">
+          Seg à Sex das 8 as 18
+        </li>
+      </ul>
+
+      <p>Doe <span class="btc"></span> Bitcoin para nos ajudar</p>
+    </footer>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button class="closeButton" data-modal="close">X</button>
+        <form action="" class="login">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            for="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <span class="error"></span>
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            for="senha"
+            id="senha"
+            placeholder="Senha"
+            required
+            class="password"
+          />
+          <span class="error"></span>
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
